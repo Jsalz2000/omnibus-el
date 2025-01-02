@@ -16,5 +16,4 @@ RUN curl -sSL https://get.rvm.io | bash -s stable
 
 RUN bash -lc "rvm requirements; \
         rvm install 3.0; \
-        gem install bundler;\
         "
